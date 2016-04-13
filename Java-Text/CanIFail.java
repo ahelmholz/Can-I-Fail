@@ -46,7 +46,7 @@ public class CanIFail {
 
           for(int i = 0; i < array.size(); i += 3){
                adjusted += (double)array.get(i) * ((double)array.get(i + 1)/(double)array.get(i + 2));
-               System.out.println(wanted - adjusted);
+               //For Testing System.out.println(wanted - adjusted);
           }
           double neededPercent = (wanted -adjusted)/(.01 * unknown);
           System.out.println("You must obtain at least a " + 
